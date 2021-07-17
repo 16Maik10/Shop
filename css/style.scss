@@ -4,6 +4,8 @@
   font-family: "Lato", sans-serif;
 }
 
+$colorOfFooterLink: #fff;
+
 .menu {
   background: #222;
   &__body {
@@ -114,9 +116,6 @@
     text-align: center;
     max-width: 1140px;
     margin: 0 auto;
-  }
-
-  &__title {
   }
 
   &__text {
@@ -302,6 +301,46 @@
 
   &__link {
     margin-left: 8px;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-color: $colorOfFooterLink !important;
+
+    &_facebook {
+      background: url(../img/footer/bottom/01.svg) no-repeat center;
+    }
+
+    &_instagram {
+      background: url(../img/footer/bottom/02.svg) no-repeat center;
+    }
+
+    &_pinterest {
+      background: url(../img/footer/bottom/03.svg) no-repeat center;
+    }
+
+    &_twitter {
+      background: url(../img/footer/bottom/04.svg) no-repeat center;
+    }
+
+    &_facebook:hover {
+      background: url(../img/footer/bottom/01h.svg) no-repeat center;
+    }
+
+    &_instagram:hover {
+      background: url(../img/footer/bottom/02h.svg) no-repeat center;
+    }
+
+    &_pinterest:hover {
+      background: url(../img/footer/bottom/03h.svg) no-repeat center;
+    }
+
+    &_twitter:hover {
+      background: url(../img/footer/bottom/04h.svg) no-repeat center;
+    }
+  }
+
+  &__link:hover {
+    background-color: #f16d7f !important;
   }
 }
 

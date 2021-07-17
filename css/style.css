@@ -362,6 +362,46 @@
 
 .footer__link {
   margin-left: 8px;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-color: #fff !important;
+}
+
+.footer__link_facebook {
+  background: url(../img/footer/bottom/01.svg) no-repeat center;
+}
+
+.footer__link_instagram {
+  background: url(../img/footer/bottom/02.svg) no-repeat center;
+}
+
+.footer__link_pinterest {
+  background: url(../img/footer/bottom/03.svg) no-repeat center;
+}
+
+.footer__link_twitter {
+  background: url(../img/footer/bottom/04.svg) no-repeat center;
+}
+
+.footer__link_facebook:hover {
+  background: url(../img/footer/bottom/01h.svg) no-repeat center;
+}
+
+.footer__link_instagram:hover {
+  background: url(../img/footer/bottom/02h.svg) no-repeat center;
+}
+
+.footer__link_pinterest:hover {
+  background: url(../img/footer/bottom/03h.svg) no-repeat center;
+}
+
+.footer__link_twitter:hover {
+  background: url(../img/footer/bottom/04h.svg) no-repeat center;
+}
+
+.footer__link:hover {
+  background-color: #f16d7f !important;
 }
 
 .button {
