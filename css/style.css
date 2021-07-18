@@ -372,28 +372,28 @@
   background: url(../img/footer/bottom/01.svg) no-repeat center;
 }
 
-.footer__link_instagram {
-  background: url(../img/footer/bottom/02.svg) no-repeat center;
-}
-
-.footer__link_pinterest {
-  background: url(../img/footer/bottom/03.svg) no-repeat center;
-}
-
-.footer__link_twitter {
-  background: url(../img/footer/bottom/04.svg) no-repeat center;
-}
-
 .footer__link_facebook:hover {
   background: url(../img/footer/bottom/01h.svg) no-repeat center;
+}
+
+.footer__link_instagram {
+  background: url(../img/footer/bottom/02.svg) no-repeat center;
 }
 
 .footer__link_instagram:hover {
   background: url(../img/footer/bottom/02h.svg) no-repeat center;
 }
 
+.footer__link_pinterest {
+  background: url(../img/footer/bottom/03.svg) no-repeat center;
+}
+
 .footer__link_pinterest:hover {
   background: url(../img/footer/bottom/03h.svg) no-repeat center;
+}
+
+.footer__link_twitter {
+  background: url(../img/footer/bottom/04.svg) no-repeat center;
 }
 
 .footer__link_twitter:hover {
@@ -410,5 +410,157 @@
 
 .link {
   text-decoration: none;
+}
+
+.add-nav {
+  background: #f8f3f4;
+}
+
+.add-nav__body {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 60px 0;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.add-nav__categorie {
+  font-size: 24px;
+  line-height: 29px;
+  color: #f16d7f;
+}
+
+.add-nav__adress {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #636363;
+}
+
+.add-nav__adress_final-point {
+  color: #f16d7f;
+  font-weight: bold;
+}
+
+.product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 777px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url(../img/product/01.png) no-repeat center, #f7f7f7;
+}
+
+.product__slide {
+  width: 47px;
+  height: 47px;
+  background-color: rgba(42, 42, 42, 0.15) !important;
+  border: none;
+  cursor: pointer;
+}
+
+.product__slide_left {
+  background: url(../img/product/product/01.svg) no-repeat center;
+}
+
+.product__slide_left:hover {
+  background: url(../img/product/product/01h.svg) no-repeat center;
+}
+
+.product__slide_right {
+  background: url(../img/product/product/02.svg) no-repeat center;
+}
+
+.product__slide_right:hover {
+  background: url(../img/product/product/02h.svg) no-repeat center;
+}
+
+.product-description {
+  position: relative;
+  max-width: 1140px;
+  margin: -52px auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #eaeaea;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fff;
+}
+
+.product-description__collection {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 65px 0 28px;
+  color: #f16d7f;
+}
+
+.product-description__collection::after {
+  position: absolute;
+  content: " ";
+  width: 63px;
+  height: 3px;
+  top: 94px;
+  right: 538px;
+  background: #ef5b70;
+}
+
+.product-description__name {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 48px;
+  color: #4d4d4d;
+}
+
+.product-description__text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  max-width: 555px;
+  color: #5e5e5e;
+}
+
+.product-description__price {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  margin: 32px 0 130px;
+  color: #ef5b70;
+}
+
+.product-description__price::after {
+  content: " ";
+  position: absolute;
+  top: 358px;
+  right: 250px;
+  width: 641px;
+  border: 1px solid #eaeaea;
+}
+
+.choise-row {
+  height: 10px;
 }
 /*# sourceMappingURL=style.css.map */
